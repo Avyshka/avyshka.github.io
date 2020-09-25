@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: "Verdana";
+    font-size: 24;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+}
+a:link, a:visited, a:active, a:hover { 
+    text-decoration: none;
+    color: blue;
+}
