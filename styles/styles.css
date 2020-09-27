@@ -1,15 +1,78 @@
-body, html {
+html {
     margin: 0;
     height: 100%;
     font-family: "Verdana";
     font-size: 24;
     font-weight: bold;
+    background-color: #29262A;
+}
+body {
+    margin: auto;
+    padding-bottom: 10px;
+    min-height: 100%;
+    width: 80%;
+    background-color: #2D2A2E;
 }
 h3 {
     text-align: center;
+    color: #C5F761;
 }
-a:link, a:visited, a:active, a:hover { 
+a:link, a:visited, a:active { 
     text-decoration: none;
-    color: blue;
     display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #363237 1px;
+    color: #565158;
 }
+a:hover {
+    background-color: #363237;
+    color: #B873B8;
+}
+
+#header {
+    background-image: url("../images/header.webp");
+    background-size: cover;
+    background-position-y: center;
+    height: 20%;
+}
+
+#header-overlay {
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+}
+
+#logo {
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    border: solid #565158 1px;
+}
+
+.header-title {
+    background-color: #29262A;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    border: solid #565158 1px;
+    color: #FFFF00;
+}
+
+#title-left {
+    padding: 10px 5px 10px 20px;
+}
+
+#title-right {
+    padding: 10px 20px 10px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+  }
