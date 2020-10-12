@@ -188,11 +188,11 @@ and limitations under the License.
 
 /*! ../BaseGame */
 
-/*! ../PixiEnding */
-
 /*! ../data/GameDataModel */
 
 /*! ../index */
+
+/*! ../utils */
 
 /*! ../utils/Vector */
 
@@ -200,9 +200,9 @@ and limitations under the License.
 
 /*! ./../../../timers-browserify@2.0.11/node_modules/timers-browserify/main.js */
 
-/*! ./../../../webpack@4.44.1_7d74d9f6ceb0e540c1e44d9709220c58/node_modules/webpack/buildin/global.js */
+/*! ./../../../webpack@4.44.2_93ca2875a658e9d1552850624e6b91c7/node_modules/webpack/buildin/global.js */
 
-/*! ./../../../webpack@4.44.1_7d74d9f6ceb0e540c1e44d9709220c58/node_modules/webpack/buildin/module.js */
+/*! ./../../../webpack@4.44.2_93ca2875a658e9d1552850624e6b91c7/node_modules/webpack/buildin/module.js */
 
 /*! ./BaseGame */
 
@@ -254,7 +254,15 @@ and limitations under the License.
 
 /*! ./isMobile */
 
+/*! ./pixi/CheckBox */
+
+/*! ./pixi/PixiEnding */
+
 /*! ./pixi/PixiGame */
+
+/*! ./pixi/ReloadableTexture */
+
+/*! ./pixi/ResizableRect */
 
 /*! ./pixi/Scene */
 
@@ -378,6 +386,8 @@ and limitations under the License.
 
 /*! exports provided: CacheData */
 
+/*! exports provided: CheckBox */
+
 /*! exports provided: Circle, DEG_TO_RAD, Ellipse, Matrix, ObservablePoint, PI_2, Point, Polygon, RAD_TO_DEG, Rectangle, RoundedRectangle, SHAPES, Transform, groupD8 */
 
 /*! exports provided: ColorMatrixFilter */
@@ -386,7 +396,7 @@ and limitations under the License.
 
 /*! exports provided: DomImageEnding */
 
-/*! exports provided: EntityBackgroundType, pixiApp, PixiGame */
+/*! exports provided: EntityBackgroundType, pixiApp, pixiGame, PixiGame */
 
 /*! exports provided: Extract */
 
@@ -409,6 +419,10 @@ and limitations under the License.
 /*! exports provided: ParticleContainer, ParticleRenderer */
 
 /*! exports provided: PixiEnding */
+
+/*! exports provided: ReloadableTexture */
+
+/*! exports provided: ResizableRect */
 
 /*! exports provided: Runner */
 
@@ -446,7 +460,7 @@ and limitations under the License.
 
 /*! exports provided: randInt, file2base64, loadResources, loadSound, getChanges, wait */
 
-/*! exports provided: randInt, file2base64, loadResources, loadSound, getChanges, wait, StandardEndings, BaseGame, DomImageEnding, PixiEnding, Sound, EntityBackgroundType, pixiApp, PixiGame, Scene, WinScene, Wrapper, Utils */
+/*! exports provided: randInt, file2base64, loadResources, loadSound, getChanges, wait, StandardEndings, BaseGame, DomImageEnding, Sound, ResizableRect, CheckBox, PixiEnding, EntityBackgroundType, pixiApp, pixiGame, PixiGame, Scene, WinScene, Wrapper, Utils, ReloadableTexture */
 
 /*! exports provided: utils, AccessibilityManager, accessibleTarget, InteractionData, InteractionEvent, InteractionManager, InteractionTrackingData, interactiveTarget, Application, AbstractBatchRenderer, AbstractRenderer, Attribute, BaseRenderTexture, BaseTexture, BatchDrawCall, BatchGeometry, BatchPluginFactory, BatchRenderer, BatchShaderGenerator, BatchTextureArray, Buffer, Filter, FilterState, Framebuffer, GLFramebuffer, GLProgram, GLTexture, Geometry, IGLUniformData, MaskData, ObjectRenderer, Program, Quad, QuadUv, RenderTexture, RenderTexturePool, Renderer, Shader, SpriteMaskFilter, State, System, Texture, TextureMatrix, TextureUvs, UniformGroup, ViewableBuffer, autoDetectRenderer, checkMaxIfStatementsInShader, defaultFilterVertex, defaultVertex, resources, systems, uniformParsers, Extract, AppLoaderPlugin, Loader, LoaderResource, TextureLoader, ParticleContainer, ParticleRenderer, BasePrepare, CountLimiter, Prepare, TimeLimiter, Spritesheet, SpritesheetLoader, TilingSprite, TilingSpriteRenderer, BitmapFont, BitmapFontData, BitmapFontLoader, BitmapText, Ticker, TickerPlugin, UPDATE_PRIORITY, ALPHA_MODES, BLEND_MODES, BUFFER_BITS, CLEAR_MODES, DRAW_MODES, ENV, FORMATS, GC_MODES, MASK_TYPES, MIPMAP_MODES, MSAA_QUALITY, PRECISION, RENDERER_TYPE, SCALE_MODES, TARGETS, TYPES, WRAP_MODES, Bounds, Container, DisplayObject, TemporaryDisplayObject, FillStyle, GRAPHICS_CURVES, Graphics, GraphicsData, GraphicsGeometry, LINE_CAP, LINE_JOIN, LineStyle, graphicsUtils, Circle, DEG_TO_RAD, Ellipse, Matrix, ObservablePoint, PI_2, Point, Polygon, RAD_TO_DEG, Rectangle, RoundedRectangle, SHAPES, Transform, groupD8, Mesh, MeshBatchUvs, MeshGeometry, MeshMaterial, NineSlicePlane, PlaneGeometry, RopeGeometry, SimpleMesh, SimplePlane, SimpleRope, Runner, Sprite, AnimatedSprite, TEXT_GRADIENT, Text, TextMetrics, TextStyle, isMobile, settings, VERSION, filters, useDeprecated */
 
@@ -521,10 +535,6 @@ and limitations under the License.
   \****************************************/
 
 /*!****************************************!*\
-  !*** ../game-utils/dist/PixiEnding.js ***!
-  \****************************************/
-
-/*!****************************************!*\
   !*** ../game-utils/dist/pixi/Scene.js ***!
   \****************************************/
 
@@ -557,6 +567,10 @@ and limitations under the License.
   \******************************************/
 
 /*!*******************************************!*\
+  !*** ../game-utils/dist/pixi/CheckBox.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
   !*** ../game-utils/dist/pixi/Constant.js ***!
   \*******************************************/
 
@@ -583,6 +597,18 @@ and limitations under the License.
 /*!********************************************!*\
   !*** ../game-utils/dist/DomImageEnding.js ***!
   \********************************************/
+
+/*!*********************************************!*\
+  !*** ../game-utils/dist/pixi/PixiEnding.js ***!
+  \*********************************************/
+
+/*!************************************************!*\
+  !*** ../game-utils/dist/pixi/ResizableRect.js ***!
+  \************************************************/
+
+/*!****************************************************!*\
+  !*** ../game-utils/dist/pixi/ReloadableTexture.js ***!
+  \****************************************************/
 
 /*!****************************************************************!*\
   !*** ../node_modules/.pnpm/url@0.11.0/node_modules/url/url.js ***!
@@ -789,11 +815,11 @@ and limitations under the License.
   \****************************************************************************************************************/
 
 /*!********************************************************************************************************************!*\
-  !*** ../node_modules/.pnpm/webpack@4.44.1_7d74d9f6ceb0e540c1e44d9709220c58/node_modules/webpack/buildin/global.js ***!
+  !*** ../node_modules/.pnpm/webpack@4.44.2_93ca2875a658e9d1552850624e6b91c7/node_modules/webpack/buildin/global.js ***!
   \********************************************************************************************************************/
 
 /*!********************************************************************************************************************!*\
-  !*** ../node_modules/.pnpm/webpack@4.44.1_7d74d9f6ceb0e540c1e44d9709220c58/node_modules/webpack/buildin/module.js ***!
+  !*** ../node_modules/.pnpm/webpack@4.44.2_93ca2875a658e9d1552850624e6b91c7/node_modules/webpack/buildin/module.js ***!
   \********************************************************************************************************************/
 
 /*!**********************************************************************************************************************!*\
