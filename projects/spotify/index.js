@@ -1,0 +1,1 @@
+console.log(navigator.userAgent),navigator.__defineGetter__("userAgent",(function(){return"foo"})),console.log(navigator.userAgent);const iframe=document.getElementById("iframeId");iframe.src="https://open.spotify.com/playlist/0i52Ui72cgPCkJpfslOpU8?embedded=true";const link="https://open.spotify.com/";
